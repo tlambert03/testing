@@ -10,4 +10,6 @@ def test_qt(qtbot):
 
     widget = QWidget()
     qtbot.addWidget(widget)
+
+    widget.show()
     assert widget.isVisible()
