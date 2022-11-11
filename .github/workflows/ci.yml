@@ -8,6 +8,9 @@ on:
   workflow_dispatch:
 
 jobs:
+  check_manifest:
+    uses: tlambert03/workflows/.github/workflows/check_manifest.yml@main
+
   test:
     name: ${{ matrix.platform }} (${{ matrix.python-version }})
     strategy:
