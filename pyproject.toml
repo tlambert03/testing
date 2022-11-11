@@ -23,7 +23,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
 ]
 dynamic = ["version"]
-dependencies = []
+dependencies = ["qtpy", "pyqt5"]
 
 # extras
 # https://peps.python.org/pep-0621/#dependencies-optional-dependencies
@@ -31,6 +31,7 @@ dependencies = []
 test = [
     "pytest>=6.0",
     "pytest-cov",
+    "pytest-qt",
 ]
 dev = [
     "black",
