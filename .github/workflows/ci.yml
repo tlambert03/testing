@@ -7,7 +7,6 @@ on:
   pull_request:
   workflow_dispatch:
 
-
 jobs:
   test:
     name: ${{ matrix.platform }} (${{ matrix.python-version }})
