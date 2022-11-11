@@ -24,3 +24,4 @@ jobs:
       platform: ${{ matrix.platform }}
       use-tox: true
       use-qt: true
+      install-pre-releases: true
