@@ -1,2 +1,5 @@
+from pyrepo import do_a_thing
+
+
 def test_something():
-    pass
+    assert do_a_thing() is True
